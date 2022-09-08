@@ -1,0 +1,4 @@
+#!/bin/bash
+default_duration=10
+duration=${1:-$default_duration}
+while true; do clear; neofetch; sleep ${duration}; done
